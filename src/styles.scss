@@ -1,0 +1,32 @@
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+@import 'variables';
+@import '../node_modules/font-awesome';
+
+
+$background-red: #a80e0e;
+$color-yellow: #f5f103;
+$background-green: #15e615;
+$text-floral-white: #fff;
+
+
+body { 
+  padding: 0; 
+  margin: 0; 
+  font-family: Roboto, sans-serif; 
+  
+}
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+.background-green{
+  background-color: $background-green!important;
+}
+.background-red{
+    background-color : $background-red!important;
+  }
+.color-yellow{
+    color : $color-yellow!important;
+  }
+.text-floral-white{
+  color: $text-floral-white!important;
+}

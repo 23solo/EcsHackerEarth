@@ -1,0 +1,5 @@
+https://hackerearth-838b1.web.app/
+
+(Kindly copy paste the same link and don't refresh the page as I have redirected
+or routed '' to '/home' so firebase will show page not found.. or You can refresh the page by removing 
+/home from the obtained url once the site is loaded)

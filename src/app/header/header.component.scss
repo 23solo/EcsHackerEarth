@@ -1,0 +1,17 @@
+$color-green: #11d41b;
+$hover-dark: #351818 ;
+a:hover{
+    color :$hover-dark ;
+}
+a{
+    text-decoration: none;
+}
+.active{
+    color: $color-green;
+}
+.mat-toolbar {
+    position: sticky;
+    position: -webkit-sticky; /* For macOS/iOS Safari */
+    top: 0; /* Sets the sticky toolbar to be on top */
+    z-index: 1000; /* Ensure that your app's content doesn't overlap the toolbar */
+}

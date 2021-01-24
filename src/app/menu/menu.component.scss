@@ -1,0 +1,38 @@
+$secondary-text-color: #757575;
+
+table{
+    width: 100%;
+    margin: 5px auto;
+}
+.mat-elevation-z8 {    
+    overflow-x: auto;
+}
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+ngb-rating {
+  color: #070c0c;
+}
+.centered {
+  position: fixed; /* or absolute */
+  top: 40%;
+  left: 45%;
+}
+.btn :hover{
+  color: #0c5c2b;
+}
+.mat-row:nth-child(even){
+  background-color: #e4f0ec;
+}
+
+.mat-row:nth-child(odd){
+  background-color:#ffffff;
+}
+
+.mat-row:hover {
+  background-color: rgb(131, 125, 125);
+}
